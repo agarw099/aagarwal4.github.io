@@ -1,0 +1,721 @@
+source,target,value
+Donald Trump,Bill Clinton,9
+Hillary Clinton,Bill Clinton,1
+Jill Stein,Bill Clinton,5
+Gary Johnson,Bill Clinton,0
+Mike Pence,Bill Clinton,0
+Tim Kaine,Bill Clinton,0
+Donald Trump,Ivanka Trump,9
+Hillary Clinton,Ivanka Trump,0
+Jill Stein,Ivanka Trump,0
+Gary Johnson,Ivanka Trump,0
+Mike Pence,Ivanka Trump,0
+Tim Kaine,Ivanka Trump,0
+Donald Trump,Mike R. Pence,11
+Hillary Clinton,Mike R. Pence,21
+Jill Stein,Mike R. Pence,4
+Gary Johnson,Mike R. Pence,0
+Mike Pence,Mike R. Pence,20
+Tim Kaine,Mike R. Pence,2
+Donald Trump,Barack Obama,357
+Hillary Clinton,Barack Obama,36
+Jill Stein,Barack Obama,34
+Gary Johnson,Barack Obama,6
+Mike Pence,Barack Obama,8
+Tim Kaine,Barack Obama,5
+Donald Trump,Paul Ryan,2
+Hillary Clinton,Paul Ryan,0
+Jill Stein,Paul Ryan,0
+Gary Johnson,Paul Ryan,0
+Mike Pence,Paul Ryan,2
+Tim Kaine,Paul Ryan,0
+Donald Trump,Bernie Sanders,42
+Hillary Clinton,Bernie Sanders,15
+Jill Stein,Bernie Sanders,33
+Gary Johnson,Bernie Sanders,7
+Mike Pence,Bernie Sanders,1
+Tim Kaine,Bernie Sanders,0
+Donald Trump,Tim M. Kaine,5
+Hillary Clinton,Tim M. Kaine,4
+Jill Stein,Tim M. Kaine,6
+Gary Johnson,Tim M. Kaine,0
+Mike Pence,Tim M. Kaine,1
+Tim Kaine,Tim M. Kaine,2
+Donald Trump,Bank,4
+Hillary Clinton,Bank,12
+Jill Stein,Bank,34
+Gary Johnson,Bank,0
+Mike Pence,Bank,2
+Tim Kaine,Bank,6
+Donald Trump,Currency,8
+Hillary Clinton,Currency,0
+Jill Stein,Currency,0
+Gary Johnson,Currency,1
+Mike Pence,Currency,0
+Tim Kaine,Currency,0
+Donald Trump,Debt,19
+Hillary Clinton,Debt,41
+Jill Stein,Debt,103
+Gary Johnson,Debt,5
+Mike Pence,Debt,5
+Tim Kaine,Debt,11
+Donald Trump,Deficit,4
+Hillary Clinton,Deficit,0
+Jill Stein,Deficit,0
+Gary Johnson,Deficit,0
+Mike Pence,Deficit,1
+Tim Kaine,Deficit,3
+Donald Trump,Entitlement,2
+Hillary Clinton,Entitlement,0
+Jill Stein,Entitlement,0
+Gary Johnson,Entitlement,1
+Mike Pence,Entitlement,0
+Tim Kaine,Entitlement,0
+Donald Trump,Inflation,0
+Hillary Clinton,Inflation,0
+Jill Stein,Inflation,2
+Gary Johnson,Inflation,0
+Mike Pence,Inflation,0
+Tim Kaine,Inflation,0
+Donald Trump,Infrastructure,4
+Hillary Clinton,Infrastructure,4
+Jill Stein,Infrastructure,7
+Gary Johnson,Infrastructure,0
+Mike Pence,Infrastructure,6
+Tim Kaine,Infrastructure,7
+Donald Trump,Jobs,85
+Hillary Clinton,Jobs,43
+Jill Stein,Jobs,98
+Gary Johnson,Jobs,3
+Mike Pence,Jobs,30
+Tim Kaine,Jobs,31
+Donald Trump,Labor,3
+Hillary Clinton,Labor,6
+Jill Stein,Labor,5
+Gary Johnson,Labor,0
+Mike Pence,Labor,4
+Tim Kaine,Labor,2
+Donald Trump,Minimum Wage,0
+Hillary Clinton,Minimum Wage,11
+Jill Stein,Minimum Wage,11
+Gary Johnson,Minimum Wage,0
+Mike Pence,Minimum Wage,0
+Tim Kaine,Minimum Wage,1
+Donald Trump,NAFTA,5
+Hillary Clinton,NAFTA,0
+Jill Stein,NAFTA,18
+Gary Johnson,NAFTA,0
+Mike Pence,NAFTA,0
+Tim Kaine,NAFTA,0
+Donald Trump,Overtime,1
+Hillary Clinton,Overtime,1
+Jill Stein,Overtime,3
+Gary Johnson,Overtime,0
+Mike Pence,Overtime,0
+Tim Kaine,Overtime,0
+Donald Trump,Paid Leave,0
+Hillary Clinton,Paid Leave,6
+Jill Stein,Paid Leave,1
+Gary Johnson,Paid Leave,0
+Mike Pence,Paid Leave,0
+Tim Kaine,Paid Leave,1
+Donald Trump,Poverty,4
+Hillary Clinton,Poverty,5
+Jill Stein,Poverty,25
+Gary Johnson,Poverty,1
+Mike Pence,Poverty,1
+Tim Kaine,Poverty,3
+Donald Trump,Tax,62
+Hillary Clinton,Tax,96
+Jill Stein,Tax,48
+Gary Johnson,Tax,20
+Mike Pence,Tax,17
+Tim Kaine,Tax,13
+Donald Trump,Trade,50
+Hillary Clinton,Trade,2
+Jill Stein,Trade,32
+Gary Johnson,Trade,6
+Mike Pence,Trade,3
+Tim Kaine,Trade,9
+Donald Trump,Trans-Pacific,6
+Hillary Clinton,Trans-Pacific,1
+Jill Stein,Trans-Pacific,0
+Gary Johnson,Trans-Pacific,0
+Mike Pence,Trans-Pacific,0
+Tim Kaine,Trans-Pacific,1
+Donald Trump,Unemployment,4
+Hillary Clinton,Unemployment,1
+Jill Stein,Unemployment,7
+Gary Johnson,Unemployment,0
+Mike Pence,Unemployment,29
+Tim Kaine,Unemployment,3
+Donald Trump,Wages,3
+Hillary Clinton,Wages,23
+Jill Stein,Wages,30
+Gary Johnson,Wages,1
+Mike Pence,Wages,4
+Tim Kaine,Wages,2
+Donald Trump,Wall Street,16
+Hillary Clinton,Wall Street,34
+Jill Stein,Wall Street,38
+Gary Johnson,Wall Street,1
+Mike Pence,Wall Street,1
+Tim Kaine,Wall Street,1
+Donald Trump,Welfare,0
+Hillary Clinton,Welfare,0
+Jill Stein,Welfare,6
+Gary Johnson,Welfare,0
+Mike Pence,Welfare,0
+Tim Kaine,Welfare,0
+Donald Trump,Benghazi,10
+Hillary Clinton,Benghazi,2
+Jill Stein,Benghazi,0
+Gary Johnson,Benghazi,0
+Mike Pence,Benghazi,0
+Tim Kaine,Benghazi,0
+Donald Trump,Breitbart,6
+Hillary Clinton,Breitbart,1
+Jill Stein,Breitbart,0
+Gary Johnson,Breitbart,0
+Mike Pence,Breitbart,0
+Tim Kaine,Breitbart,0
+Donald Trump,Charity,9
+Hillary Clinton,Charity,0
+Jill Stein,Charity,0
+Gary Johnson,Charity,0
+Mike Pence,Charity,0
+Tim Kaine,Charity,2
+Donald Trump,Clinton Foundation,3
+Hillary Clinton,Clinton Foundation,0
+Jill Stein,Clinton Foundation,8
+Gary Johnson,Clinton Foundation,0
+Mike Pence,Clinton Foundation,1
+Tim Kaine,Clinton Foundation,2
+Donald Trump,Deplorables,3
+Hillary Clinton,Deplorables,0
+Jill Stein,Deplorables,0
+Gary Johnson,Deplorables,0
+Mike Pence,Deplorables,0
+Tim Kaine,Deplorables,0
+Donald Trump,Emails,19
+Hillary Clinton,Emails,3
+Jill Stein,Emails,6
+Gary Johnson,Emails,1
+Mike Pence,Emails,1
+Tim Kaine,Emails,0
+Donald Trump,Trump University,11
+Hillary Clinton,Trump University,7
+Jill Stein,Trump University,1
+Gary Johnson,Trump University,0
+Mike Pence,Trump University,0
+Tim Kaine,Trump University,2
+Donald Trump,Affordability,0
+Hillary Clinton,Affordability,1
+Jill Stein,Affordability,0
+Gary Johnson,Affordability,0
+Mike Pence,Affordability,0
+Tim Kaine,Affordability,2
+Donald Trump,Colleges,1
+Hillary Clinton,Colleges,9
+Jill Stein,Colleges,0
+Gary Johnson,Colleges,0
+Mike Pence,Colleges,0
+Tim Kaine,Colleges,5
+Donald Trump,Common Core,11
+Hillary Clinton,Common Core,0
+Jill Stein,Common Core,0
+Gary Johnson,Common Core,1
+Mike Pence,Common Core,0
+Tim Kaine,Common Core,0
+Donald Trump,Education,7
+Hillary Clinton,Education,36
+Jill Stein,Education,56
+Gary Johnson,Education,1
+Mike Pence,Education,22
+Tim Kaine,Education,32
+Donald Trump,School,18
+Hillary Clinton,School,29
+Jill Stein,School,20
+Gary Johnson,School,1
+Mike Pence,School,23
+Tim Kaine,School,53
+Donald Trump,Universities,0
+Hillary Clinton,Universities,4
+Jill Stein,Universities,1
+Gary Johnson,Universities,0
+Mike Pence,Universities,0
+Tim Kaine,Universities,2
+Donald Trump,Citizens United,3
+Hillary Clinton,Citizens United,4
+Jill Stein,Citizens United,9
+Gary Johnson,Citizens United,0
+Mike Pence,Citizens United,0
+Tim Kaine,Citizens United,0
+Donald Trump,Third-Party,0
+Hillary Clinton,Third-Party,0
+Jill Stein,Third-Party,2
+Gary Johnson,Third-Party,8
+Mike Pence,Third-Party,0
+Tim Kaine,Third-Party,0
+Donald Trump,Transparency,0
+Hillary Clinton,Transparency,0
+Jill Stein,Transparency,4
+Gary Johnson,Transparency,1
+Mike Pence,Transparency,2
+Tim Kaine,Transparency,3
+Donald Trump,Voter,53
+Hillary Clinton,Voter,29
+Jill Stein,Voter,131
+Gary Johnson,Voter,23
+Mike Pence,Voter,4
+Tim Kaine,Voter,5
+Donald Trump,Detention,0
+Hillary Clinton,Detention,3
+Jill Stein,Detention,0
+Gary Johnson,Detention,0
+Mike Pence,Detention,0
+Tim Kaine,Detention,0
+Donald Trump,Drug,13
+Hillary Clinton,Drug,13
+Jill Stein,Drug,44
+Gary Johnson,Drug,14
+Mike Pence,Drug,20
+Tim Kaine,Drug,20
+Donald Trump,National Security,8
+Hillary Clinton,National Security,7
+Jill Stein,National Security,1
+Gary Johnson,National Security,1
+Mike Pence,National Security,2
+Tim Kaine,National Security,6
+Donald Trump,NSA,1
+Hillary Clinton,NSA,0
+Jill Stein,NSA,0
+Gary Johnson,NSA,2
+Mike Pence,NSA,0
+Tim Kaine,NSA,0
+Donald Trump,Private Prison,0
+Hillary Clinton,Private Prison,1
+Jill Stein,Private Prison,2
+Gary Johnson,Private Prison,0
+Mike Pence,Private Prison,0
+Tim Kaine,Private Prison,0
+Donald Trump,Sequestration,0
+Hillary Clinton,Sequestration,0
+Jill Stein,Sequestration,0
+Gary Johnson,Sequestration,0
+Mike Pence,Sequestration,0
+Tim Kaine,Sequestration,2
+Donald Trump,Snowden,3
+Hillary Clinton,Snowden,0
+Jill Stein,Snowden,1
+Gary Johnson,Snowden,0
+Mike Pence,Snowden,0
+Tim Kaine,Snowden,0
+Donald Trump,Surveillance,2
+Hillary Clinton,Surveillance,0
+Jill Stein,Surveillance,0
+Gary Johnson,Surveillance,2
+Mike Pence,Surveillance,0
+Tim Kaine,Surveillance,0
+Donald Trump,Abortion,1
+Hillary Clinton,Abortion,9
+Jill Stein,Abortion,1
+Gary Johnson,Abortion,0
+Mike Pence,Abortion,1
+Tim Kaine,Abortion,1
+Donald Trump,Black,13
+Hillary Clinton,Black,42
+Jill Stein,Black,41
+Gary Johnson,Black,1
+Mike Pence,Black,0
+Tim Kaine,Black,2
+Donald Trump,Gay,2
+Hillary Clinton,Gay,10
+Jill Stein,Gay,7
+Gary Johnson,Gay,3
+Mike Pence,Gay,0
+Tim Kaine,Gay,0
+Donald Trump,Gender,0
+Hillary Clinton,Gender,6
+Jill Stein,Gender,9
+Gary Johnson,Gender,0
+Mike Pence,Gender,0
+Tim Kaine,Gender,3
+Donald Trump,Marriage,1
+Hillary Clinton,Marriage,15
+Jill Stein,Marriage,8
+Gary Johnson,Marriage,4
+Mike Pence,Marriage,0
+Tim Kaine,Marriage,5
+Donald Trump,Planned Parenthood,1
+Hillary Clinton,Planned Parenthood,15
+Jill Stein,Planned Parenthood,0
+Gary Johnson,Planned Parenthood,0
+Mike Pence,Planned Parenthood,3
+Tim Kaine,Planned Parenthood,3
+Donald Trump,Religion,4
+Hillary Clinton,Religion,5
+Jill Stein,Religion,2
+Gary Johnson,Religion,2
+Mike Pence,Religion,4
+Tim Kaine,Religion,6
+Donald Trump,Transgender,0
+Hillary Clinton,Transgender,8
+Jill Stein,Transgender,1
+Gary Johnson,Transgender,0
+Mike Pence,Transgender,0
+Tim Kaine,Transgender,1
+Donald Trump,Charlotte,10
+Hillary Clinton,Charlotte,1
+Jill Stein,Charlotte,1
+Gary Johnson,Charlotte,0
+Mike Pence,Charlotte,6
+Tim Kaine,Charlotte,1
+Donald Trump,Childcare,1
+Hillary Clinton,Childcare,17
+Jill Stein,Childcare,2
+Gary Johnson,Childcare,0
+Mike Pence,Childcare,0
+Tim Kaine,Childcare,0
+Donald Trump,Death Penalty,1
+Hillary Clinton,Death Penalty,0
+Jill Stein,Death Penalty,1
+Gary Johnson,Death Penalty,1
+Mike Pence,Death Penalty,0
+Tim Kaine,Death Penalty,0
+Donald Trump,Eminent Domain,4
+Hillary Clinton,Eminent Domain,0
+Jill Stein,Eminent Domain,0
+Gary Johnson,Eminent Domain,0
+Mike Pence,Eminent Domain,0
+Tim Kaine,Eminent Domain,0
+Donald Trump,Gun,19
+Hillary Clinton,Gun,122
+Jill Stein,Gun,17
+Gary Johnson,Gun,2
+Mike Pence,Gun,3
+Tim Kaine,Gun,41
+Donald Trump,Healthcare,22
+Hillary Clinton,Healthcare,36
+Jill Stein,Healthcare,78
+Gary Johnson,Healthcare,2
+Mike Pence,Healthcare,5
+Tim Kaine,Healthcare,20
+Donald Trump,Insurance,4
+Hillary Clinton,Insurance,4
+Jill Stein,Insurance,10
+Gary Johnson,Insurance,1
+Mike Pence,Insurance,1
+Tim Kaine,Insurance,5
+Donald Trump,Marijuana,0
+Hillary Clinton,Marijuana,0
+Jill Stein,Marijuana,17
+Gary Johnson,Marijuana,5
+Mike Pence,Marijuana,0
+Tim Kaine,Marijuana,0
+Donald Trump,Medicaid,3
+Hillary Clinton,Medicaid,2
+Jill Stein,Medicaid,0
+Gary Johnson,Medicaid,0
+Mike Pence,Medicaid,4
+Tim Kaine,Medicaid,6
+Donald Trump,Medicare,3
+Hillary Clinton,Medicare,3
+Jill Stein,Medicare,13
+Gary Johnson,Medicare,1
+Mike Pence,Medicare,0
+Tim Kaine,Medicare,0
+Donald Trump,Native American,6
+Hillary Clinton,Native American,0
+Jill Stein,Native American,14
+Gary Johnson,Native American,0
+Mike Pence,Native American,0
+Tim Kaine,Native American,7
+Donald Trump,Obamacare,68
+Hillary Clinton,Obamacare,2
+Jill Stein,Obamacare,2
+Gary Johnson,Obamacare,0
+Mike Pence,Obamacare,1
+Tim Kaine,Obamacare,0
+Donald Trump,Patriot Act,0
+Hillary Clinton,Patriot Act,0
+Jill Stein,Patriot Act,1
+Gary Johnson,Patriot Act,0
+Mike Pence,Patriot Act,0
+Tim Kaine,Patriot Act,0
+Donald Trump,Police,30
+Hillary Clinton,Police,17
+Jill Stein,Police,81
+Gary Johnson,Police,10
+Mike Pence,Police,1
+Tim Kaine,Police,5
+Donald Trump,Racism,6
+Hillary Clinton,Racism,44
+Jill Stein,Racism,45
+Gary Johnson,Racism,0
+Mike Pence,Racism,0
+Tim Kaine,Racism,2
+Donald Trump,Social Security,6
+Hillary Clinton,Social Security,1
+Jill Stein,Social Security,4
+Gary Johnson,Social Security,0
+Mike Pence,Social Security,0
+Tim Kaine,Social Security,0
+Donald Trump,Supreme Court,6
+Hillary Clinton,Supreme Court,23
+Jill Stein,Supreme Court,5
+Gary Johnson,Supreme Court,1
+Mike Pence,Supreme Court,4
+Tim Kaine,Supreme Court,0
+Donald Trump,Vaccination,3
+Hillary Clinton,Vaccination,0
+Jill Stein,Vaccination,2
+Gary Johnson,Vaccination,0
+Mike Pence,Vaccination,0
+Tim Kaine,Vaccination,0
+Donald Trump,Veterans,50
+Hillary Clinton,Veterans,25
+Jill Stein,Veterans,6
+Gary Johnson,Veterans,3
+Mike Pence,Veterans,7
+Tim Kaine,Veterans,46
+Donald Trump,Climate Change,30
+Hillary Clinton,Climate Change,90
+Jill Stein,Climate Change,210
+Gary Johnson,Climate Change,0
+Mike Pence,Climate Change,2
+Tim Kaine,Climate Change,11
+Donald Trump,Drilling,2
+Hillary Clinton,Drilling,1
+Jill Stein,Drilling,4
+Gary Johnson,Drilling,0
+Mike Pence,Drilling,0
+Tim Kaine,Drilling,1
+Donald Trump,Fracking,0
+Hillary Clinton,Fracking,0
+Jill Stein,Fracking,42
+Gary Johnson,Fracking,0
+Mike Pence,Fracking,0
+Tim Kaine,Fracking,0
+Donald Trump,Fuel,0
+Hillary Clinton,Fuel,1
+Jill Stein,Fuel,41
+Gary Johnson,Fuel,0
+Mike Pence,Fuel,1
+Tim Kaine,Fuel,2
+Donald Trump,GMO,0
+Hillary Clinton,GMO,0
+Jill Stein,GMO,3
+Gary Johnson,GMO,0
+Mike Pence,GMO,0
+Tim Kaine,GMO,0
+Donald Trump,Oil,28
+Hillary Clinton,Oil,0
+Jill Stein,Oil,33
+Gary Johnson,Oil,3
+Mike Pence,Oil,0
+Tim Kaine,Oil,4
+Donald Trump,Pipeline,2
+Hillary Clinton,Pipeline,2
+Jill Stein,Pipeline,20
+Gary Johnson,Pipeline,0
+Mike Pence,Pipeline,1
+Tim Kaine,Pipeline,0
+Donald Trump,Renewable Energy,0
+Hillary Clinton,Renewable Energy,1
+Jill Stein,Renewable Energy,30
+Gary Johnson,Renewable Energy,0
+Mike Pence,Renewable Energy,0
+Tim Kaine,Renewable Energy,2
+Donald Trump,Warming,25
+Hillary Clinton,Warming,2
+Jill Stein,Warming,1
+Gary Johnson,Warming,0
+Mike Pence,Warming,0
+Tim Kaine,Warming,1
+Donald Trump,Africa,18
+Hillary Clinton,Africa,0
+Jill Stein,Africa,0
+Gary Johnson,Africa,0
+Mike Pence,Africa,0
+Tim Kaine,Africa,2
+Donald Trump,Amnesty,28
+Hillary Clinton,Amnesty,0
+Jill Stein,Amnesty,1
+Gary Johnson,Amnesty,0
+Mike Pence,Amnesty,1
+Tim Kaine,Amnesty,0
+Donald Trump,Brexit,5
+Hillary Clinton,Brexit,0
+Jill Stein,Brexit,1
+Gary Johnson,Brexit,0
+Mike Pence,Brexit,0
+Tim Kaine,Brexit,0
+Donald Trump,China,47
+Hillary Clinton,China,8
+Jill Stein,China,2
+Gary Johnson,China,0
+Mike Pence,China,2
+Tim Kaine,China,3
+Donald Trump,Citizenship,5
+Hillary Clinton,Citizenship,4
+Jill Stein,Citizenship,6
+Gary Johnson,Citizenship,0
+Mike Pence,Citizenship,0
+Tim Kaine,Citizenship,0
+Donald Trump,Cuba,4
+Hillary Clinton,Cuba,4
+Jill Stein,Cuba,2
+Gary Johnson,Cuba,0
+Mike Pence,Cuba,2
+Tim Kaine,Cuba,4
+Donald Trump,Drone,2
+Hillary Clinton,Drone,0
+Jill Stein,Drone,11
+Gary Johnson,Drone,1
+Mike Pence,Drone,0
+Tim Kaine,Drone,1
+Donald Trump,Egypt,1
+Hillary Clinton,Egypt,0
+Jill Stein,Egypt,1
+Gary Johnson,Egypt,0
+Mike Pence,Egypt,0
+Tim Kaine,Egypt,1
+Donald Trump,Europe,7
+Hillary Clinton,Europe,0
+Jill Stein,Europe,2
+Gary Johnson,Europe,0
+Mike Pence,Europe,0
+Tim Kaine,Europe,0
+Donald Trump,Immigration,83
+Hillary Clinton,Immigration,62
+Jill Stein,Immigration,43
+Gary Johnson,Immigration,7
+Mike Pence,Immigration,2
+Tim Kaine,Immigration,11
+Donald Trump,Iran,56
+Hillary Clinton,Iran,5
+Jill Stein,Iran,3
+Gary Johnson,Iran,1
+Mike Pence,Iran,0
+Tim Kaine,Iran,18
+Donald Trump,Iraq,54
+Hillary Clinton,Iraq,1
+Jill Stein,Iraq,32
+Gary Johnson,Iraq,3
+Mike Pence,Iraq,0
+Tim Kaine,Iraq,13
+Donald Trump,ISIS,77
+Hillary Clinton,ISIS,20
+Jill Stein,ISIS,16
+Gary Johnson,ISIS,2
+Mike Pence,ISIS,0
+Tim Kaine,ISIS,1
+Donald Trump,Islamic,18
+Hillary Clinton,Islamic,1
+Jill Stein,Islamic,0
+Gary Johnson,Islamic,0
+Mike Pence,Islamic,1
+Tim Kaine,Islamic,0
+Donald Trump,Israel,19
+Hillary Clinton,Israel,0
+Jill Stein,Israel,13
+Gary Johnson,Israel,0
+Mike Pence,Israel,1
+Tim Kaine,Israel,8
+Donald Trump,Korea,4
+Hillary Clinton,Korea,1
+Jill Stein,Korea,0
+Gary Johnson,Korea,0
+Mike Pence,Korea,0
+Tim Kaine,Korea,0
+Donald Trump,Mexico,72
+Hillary Clinton,Mexico,10
+Jill Stein,Mexico,11
+Gary Johnson,Mexico,7
+Mike Pence,Mexico,1
+Tim Kaine,Mexico,6
+Donald Trump,Military,34
+Hillary Clinton,Military,16
+Jill Stein,Military,68
+Gary Johnson,Military,13
+Mike Pence,Military,6
+Tim Kaine,Military,71
+Donald Trump,Muslim,16
+Hillary Clinton,Muslim,31
+Jill Stein,Muslim,14
+Gary Johnson,Muslim,1
+Mike Pence,Muslim,0
+Tim Kaine,Muslim,8
+Donald Trump,NATO,3
+Hillary Clinton,NATO,1
+Jill Stein,NATO,2
+Gary Johnson,NATO,0
+Mike Pence,NATO,0
+Tim Kaine,NATO,0
+Donald Trump,Nuclear,31
+Hillary Clinton,Nuclear,29
+Jill Stein,Nuclear,19
+Gary Johnson,Nuclear,0
+Mike Pence,Nuclear,0
+Tim Kaine,Nuclear,18
+Donald Trump,Puerto,1
+Hillary Clinton,Puerto,14
+Jill Stein,Puerto,9
+Gary Johnson,Puerto,1
+Mike Pence,Puerto,0
+Tim Kaine,Puerto,3
+Donald Trump,Putin,28
+Hillary Clinton,Putin,5
+Jill Stein,Putin,2
+Gary Johnson,Putin,0
+Mike Pence,Putin,0
+Tim Kaine,Putin,0
+Donald Trump,Raids,0
+Hillary Clinton,Raids,4
+Jill Stein,Raids,4
+Gary Johnson,Raids,0
+Mike Pence,Raids,0
+Tim Kaine,Raids,0
+Donald Trump,Russia,28
+Hillary Clinton,Russia,6
+Jill Stein,Russia,16
+Gary Johnson,Russia,1
+Mike Pence,Russia,1
+Tim Kaine,Russia,5
+Donald Trump,Syria,24
+Hillary Clinton,Syria,3
+Jill Stein,Syria,14
+Gary Johnson,Syria,1
+Mike Pence,Syria,1
+Tim Kaine,Syria,13
+Donald Trump,Terrorism,48
+Hillary Clinton,Terrorism,37
+Jill Stein,Terrorism,31
+Gary Johnson,Terrorism,1
+Mike Pence,Terrorism,2
+Tim Kaine,Terrorism,7
+Donald Trump,Torture,1
+Hillary Clinton,Torture,5
+Jill Stein,Torture,0
+Gary Johnson,Torture,0
+Mike Pence,Torture,0
+Tim Kaine,Torture,0
+Donald Trump,Ukraine,6
+Hillary Clinton,Ukraine,0
+Jill Stein,Ukraine,1
+Gary Johnson,Ukraine,0
+Mike Pence,Ukraine,0
+Tim Kaine,Ukraine,4
+Donald Trump,Venezuela,1
+Hillary Clinton,Venezuela,0
+Jill Stein,Venezuela,0
+Gary Johnson,Venezuela,0
+Mike Pence,Venezuela,0
+Tim Kaine,Venezuela,0
+Donald Trump,Waterboarding,2
+Hillary Clinton,Waterboarding,0
+Jill Stein,Waterboarding,0
+Gary Johnson,Waterboarding,0
+Mike Pence,Waterboarding,0
+Tim Kaine,Waterboarding,0
