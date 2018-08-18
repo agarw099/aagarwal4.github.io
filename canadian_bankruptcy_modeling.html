@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,20 +38,20 @@
     <div class="container">
         <div class="row">
             <div class="page-header">
-                <h1>Recommendation System for SF Bay Area Bike Share Program<small> </small></h1>
+                <h1>Canadian National Bankruptcy Rates Forecasting<small> </small></h1>
             </div>
             <ol class="breadcrumb">
               <li>Anant Agarwal</li>
               <li><a href="../">Home</a></li>
               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="">SF Bay Bike Share</a></li>
+                <li><a href="../bay_area_bike_share.html">SF Bay Bike Share</a></li>
                 <li><a href="../us_presidential_twitter.html">US Presidential Elections Twitter</a></li>
                 <li><a href="../mckinsey_hackathon.html">McKinsey Analytics Hackathon</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="../officer_traffic_stops.html">Officer Traffic Stops</a></li>
                 <li><a href="../grocery_forecasting.html">Corporación Favorita Grocery Sales Forecasting</a></li>
-                <li><a href="../canadian_bankruptcy_modeling.html">Canadian Bankruptcy Rates Forecasting</a></li>
+                <li><a href="">Canadian Bankruptcy Rates Forecasting</a></li>
                 <li><a href="../us_flights_eda.html">US Flights Analysis</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="../porosity_waves.html">Modeling of Porosity Waves</a></li>
@@ -64,24 +65,27 @@
               </ol>
             <div class="col-md-6">
             <h3></h3>
-                <a href="https://github.com/aagarwal4/bay-area-bike-share" class="thumbnail">
-                    <img src="recommendation_app.png" alt="Recommendation App">
+                <a href="https://github.com/aagarwal4/Time-Series-Final-Project" class="thumbnail">
+                    <img src="bankruptcy_forecasting.png" alt="Bankruptcy rates forecast">
+                    <div class="caption">
+                        <h5 style = "text-align: center; font-style: bold">Figure: Bankrutpcy rates forecast for FY 2011 and 2012</h5>
+                    </div>
                 </a>
             </div>
             <div class="col-md-6">
 
                 <h3>Problem Statement</h3>
-                <p>Given the shortage of bikes in San Francisco Bay Area, there is a need to optimize the probability of availing bikes at any of the nearest Ford GoBike stations. With the existing Ford GoBike app, real-time bike availability information can be tracked, however, a tool is needed to plan future rides.
+                <p>National bankruptcy rates are of interest to multiple parties, such as insurance companies and government. Given, monthly unemployment rates, population, and housing price index data, as well as monthly national bankruptcy rates from january 1987 through December 2010, the goal is to accurately predict the bankruptcy rates in Canada from January 2011 through December 2012.
                 </p>
                 <p>The recommendation system should find a near station with high probability of bike availability in near future for future rides based on predictions of traffic and bike availability.
                 </p>
-                <h3>Motivation</h3>
-                <p>This project was done as part of a class project for Distributed Data Systems at USF. We were learning Spark, associated libraries such as SparkSQL, SparkML and NoSQL databases such as MongoDB. We wanted to build a distributed data pipeline for the problem, and use machine learning algorithms to predict bike availability and traffic, and use that information to recommend a near bike station to a user based on his location and expected time of use of bike. </p>
+                <h3>Data preparation</h3>
+                <p>The bankruptcy rates appear to have both trend and seasonality, which was further confirmed by ACF and PACF plots. Bankruptcy rates also had a non-constant variance over time, and thus log-transformation of the rates was done before building the model, since this approach preserves trend and seasonality in the data but maintains a constant variance over time. </p>
+                <p>A split of training and development sets was done using the training data for validation purposes. The development set was from January 2009 through December 2010, since two years is also the length of the test set.</p>
                 <h3>Implementation</h3>
-                <p>A data pipeline was created by storing data in S3 buckets and querying through SparkSQL on AWS EC2 instance. Generalized linear regression and random forest regression models were used respectively to predict traffic and bike availability.
-                <h3><a href="https://github.com/aagarwal4/bay-area-bike-share/blob/master/BikeShare_Slides.pdf">Powerpoint Presentation</a><h3>
-                <h3><a href="https://github.com/aagarwal4/bay-area-bike-share">Code</a><h3>
-
+                <p>The following modeling approaches were explored: SARIMA, SARIMAX, Vector Autoregression and Holt-Winters. The most optimal model from each method was selected and residual diagnostics were conducted to verify model validity. The optimal model from among these models was the SARIMAX model with unemployment rate as a covariate, which gave an RMSE of 0.0029 when trained on the entire dataset.</p>
+                <h3><a href="https://github.com/aagarwal4/Time-Series-Final-Project/blob/master/MSAN604_Time%20Series%20Final%20Project_Team1.4.pdf">Business Report</a><h3>
+                <h3><a href="https://github.com/aagarwal4/Time-Series-Final-Project">Code</a><h3>
 
             </div>
         </div>
