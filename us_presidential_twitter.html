@@ -34,117 +34,33 @@
 </head>
 
 <body>
-  <div class="container">
-      <div class="row">
+    <div class="container">
+        <div class="row">
           <div class="page-header">
-              <h1>Corporación Favorita Grocery Sales Forecasting<small> </small></h1>
-          </div>
-          <ol class="breadcrumb">
-            <li>Anant Agarwal</li>
-            <li><a href="../">Home</a></li>
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="../bay_area_bike_share.html">SF Bay Bike Share</a></li>
-              <li><a href="../us_presidential_twitter.html">US Presidential Elections Twitter</a></li>
-              <li><a href="../mckinsey_hackathon.html">McKinsey Analytics Hackathon</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="../officer_traffic_stops.html">Officer Traffic Stops</a></li>
-              <li><a href="">Corporación Favorita Grocery Sales Forecasting</a></li>
-              <li><a href="../canadian_bankruptcy_modeling.html">Canadian Bankruptcy Modeling</a></li>
-              <li><a href="../us_flights_eda.html">US Flights Analysis</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="../porosity_waves.html">Modeling of Porosity Waves</a></li>
-            </ul>
-
-              </li>
-              <li><a href="https://diffegormac.blogspot.com">Blog</a></li>
-              <li><a href="https://github.com/aagarwal4/">Github</a></li>
-              <li><a href="https://linkedin.com/in/agarwalanant/">LinkedIn</a></li>
-              <li><a href="https://twitter.com/agarw099/">Twitter</a></li>
-            </ol>
-            <div class="col-md-12">
-                <h3>Motivation</h3>
-                <p>I wanted to explore the Twitter data of U.S. presidential candidates to find out which topics did they talk about most on the social media platform. </p>
-                <h3>Project Details</h3>
-                <p> I used the script from this <a href="https://www.kaggle.com/austinvernsonger/donaldtrumptweets/data">Kaggle webpage</a> to download ~<b>50,000</b> total tweets of <b>Donald Trump, Hillary Clinton, Jill Stein, Mike Pence, Gary Johnson and Tim Kaine</b> from <b>January 2014 through December 2016</b>. After that, Python was used to categorize the tweets through keyword analysis. The visualization was done entirely in D3.js.</p>
-                <p> The trend in total number of tweets per month by different candidates can be <i>visualized interactively</i> below. The cursor can be used to identify the number of tweets at the end of a month.</p>
-		    <a href="linechart.html" class="thumbnail">
-                    <img src="linechart.png" width = "900" align = "middle" alt="Visualization of Twitter presence by month of U.S. presidential candidates">
-                    <div class="caption">
-                        <h5 style = "text-align: center; font-style: bold">Figure 1: Twitter Presence by Month</h5>
-                    </div>
-                </a>
-		<br>
-		<p> We observe some interesting trends here:</p>
-		<ul>
-		  <li><i>Donald Trump</i> of the Republican Party had the <b>highest number of tweets per month on average</b>, and tweeted <b>970 times in January 2015</b> alone, after which he had an on-and-off decreasing trend of Twitter presence.</li>
-		  <li><i>Hillary Clinton</i> from the Democratic Party consistently started tweeting more from March 2015.</li>
-		  <li><i>Jill Stein</i> of the Green Party had a <b>sudden rise</b> in number of tweets in March 2016, and overshadowed Hillary Clinton in terms of total number of tweets per month. <b>She was consistently the most active candidate on Twitter from March 2016 until December 2016</b>.</li>
-		</ul>
-		<br>
-                <p>The first step was identifying keywords by searching through <i>online news articles</i> about important issues which were discussed in U.S. Presidential Elections 2016 and then further categorizing them into broad categories such as:</p>
-                <ul>
-                    <li>Economy and Trade</li>
-                    <li>Foreign Policy</li>
-                    <li>Domestic Policy</li>
-                    <li>Energy and Environment</li>
-                    <li>Campaign Controversies</li>
-                    <li>People</li>
-                    <li>Miscellaneous (including Social Issues, National Security, Education, Electoral Issues)</li>
-		  </ul>
-		  <br>
-		  <a href="radialtidytree.html" class="thumbnail">
-                    <img src ="radialtidytree.png" width = "800" align = "middle" alt = "Visualization of important issues in U.S. presidential elections 2016">
-                     <div>
-                        <h5 style = "text-align: center; font-style: bold">Figure 2: Important Issues in U.S. Elections 2016</h5>
-                    </div>
-		  </a>
-              <br>
-	      <p>The analysis of tweets by different categories can be well-summarised by the <i>interactive visualizations</i> below. The comparison of presence of the presidential candidates in different categories can be explored through the donut chart, and a summary by each candidate can be explored by the histogram.</p>
-              <br>
-	      <div class="flex-row row ">
-                <div class="col-xs-12 col-md-6">
-                  <a href="donutchart.html" class="thumbnail">
-                    <img src="donutchart.png" width = "500" height = "500" alt="Category presence of U.S. presidential candidates 2016">
-                    <div class="caption">
-                        <h5 style = "text-align: center; font-style: bold">Figure 3: Category presence of different candidates</h5>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <a href="histogram.html" class="thumbnail">
-                    <img src="histogram.png" width = "500" height = "500" alt="Number of tweets by U.S. presidential candidates in different categories">
-                    <div class="caption">
-                        <h5 style = "text-align: center; font-style: bold">Figure 4: Number of tweets by candidates in categories</h5>
-                    </div>
-                  </a>
-                </div>
-              </div>
-		<p><br />We see that <b>Donald Trump had the highest total number of tweets</b>, and had the highest category presence in <b>foreign policy, campaign controversies and people</b>. Hillary Clinton tweeted the most among all the candidates about <b>domestic policy and social issues</b>. Jill Stein had the highest category presence in <b> economy and trade, energy and environment and education</b>, while Tim Kaine tweeted the most about <b>electoral reforms</b>.</p>
-		<p>Furthermore, the issues talked about the most can be <i>visualized interactively</i> by the Sankey diagram below. The individual nodes can be dragged for better visibility and the tooltip feature on the links and nodes can be used to find the number of tweets.</p>
-              	<br>
-		<a href="sankey.html" class="thumbnail">
-                    <img src="sankey.png" alt="Number of tweets by U.S. presidential candidates on issues">
-                    <div class="caption">
-                        <h5 style = "text-align: center; font-style: bold">Figure 5: Number of tweets by candidates on issues</h5>
-                    </div>
-                </a>
-		<br>
-		    <p> It is interesting to note that the highest number of tweets referenced <b>Barack Obama</b>, with Donald Trump tweeting about him 357 times. <b>Climate change</b> was another main topic of discussion, followed by <b>jobs, tax, voter, immigration, military, guns and debt related issues</b>. The main issues tweeted about by the candidates are as follows:</p>
-    		    <ul>
-			<li><i>Jill Stein</i> - climate change, voters, debt, jobs, police and healthcare </li>
-			<li><i>Hillary Clinton</i> - guns, tax, climate change and immigration</li>
-			<li><i>Donald Trump</i> - Barack Obama, jobs, immigration, ISIS and Obamacare</li>
-			<li><i>Tim Kaine</i> - military, school, veterans and gun related issues</li>
-			<li><i>Mike Pence</i> - jobs, unemployment, school and education</li>
-			<li><i>Gary Johnson</i> - voter and tax related issues</li>
-		    </ul>
-                <h3>Possible developments</h3>
-                <ul>
-                    <li>Create an integrated interactive framework allowing the user to navigate the data coherently</li>
-                    <li>Do analysis of retweets and temporal variations of the topics discussed</li>
-                </ul>
-              </div>
+     <h1 style = "text-align: center" id="titolo">Who Said What? </h1><i><h3 style = "text-align: center">U.S. Presidential Elections 2016</h3></i>
+             </div>
+            <ol class="breadcrumb">
+              <li>Anant Agarwal</li>
+              <li><a href="../">Home</a></li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../bay_area_bike_share.html">SF Bay Bike Share</a></li>
+                <li><a href="">US Presidential Elections Twitter</a></li>
+                <li><a href="../mckinsey_hackathon.html">McKinsey Analytics Hackathon</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="../officer_traffic_stops.html">Officer Traffic Stops</a></li>
+                <li><a href="../grocery_forecasting.html">Corporación Favorita Grocery Sales Forecasting</a></li>
+                <li><a href="../canadian_bankruptcy_modeling.html">Canadian Bankruptcy Modeling</a></li>
+                <li><a href="../us_flights_eda.html">US Flights Analysis</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="../porosity_waves.html">Modeling of Porosity Waves</a></li>
+              </ul>
+                </li>
+               <li><a href="https://diffegormac.blogspot.com">Blog</a></li>
+               <li><a href="https://github.com/aagarwal4/">Github</a></li>
+               <li><a href="https://linkedin.com/in/agarwalanant/">LinkedIn</a></li>
+               <li><a href="https://twitter.com/agarw099/">Twitter</a></li>
+             </ol>
           </div>
         </div>
 </body>
