@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Anant Agarwal's website">
+    <meta name="author" content="Anant Agarwal">
+
+    <title>Anant Agarwal</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+    <style>
+    .breadcrumb>li + li:before{
+        content:"|\00a0";
+    }
+    @media only screen and (min-width : 768px) {
+       .flex-row.row {
+         display: flex;
+         flex-wrap: wrap;
+       }
+       .flex-row.row > [class*='col-'] {
+         display: flex;
+         flex-direction: column;
+       }
+    }
+    .flex-row .thumbnail,
+    .flex-row .caption {
+      flex:1 0 auto;
+      flex-direction:column;
+    }
+    .flex-text {
+      flex-grow:1
+    }
+    .flex-row img {
+      height:auto;
+      width:100%
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+  <div class="container">
+          <div class="row">
+              <div class="page-header">
+                  <h1> Anant Agarwal<small> </small></h1>
+              </div>
+              <ol class="breadcrumb">
+                <li><a href="https://aagarwal4.github.io">Home</a></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="bay_area_bike_share.html">SF Bay Bike Share</a></li>
+                  <li><a href="us_presidential_twitter.html">US Presidential Elections Twitter</a></li>
+                  <li><a href="mckinsey_hackathon.html">McKinsey Analytics Hackathon</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="officer_traffic_stops.html">Officer Traffic Stops</a></li>
+                  <li><a href="grocery_forecasting.html">Corporación Favorita Grocery Sales Forecasting</a></li>
+                  <li><a href="canadian_bankruptcy_modeling.html">Canadian Bankruptcy Modeling</a></li>
+                  <li><a href="us_flights_eda.html">US Flights Analysis</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="porosity_waves.html">Modeling of Porosity Waves</a></li>
+                </ul>
+
+                 </li>
+                <li><a href="https://diffegormac.blogspot.com">Blog</a></li>
+                <li><a href="https://github.com/aagarwal4/">Github</a></li>
+                <li><a href="https://linkedin.com/in/agarwalanant/">LinkedIn</a></li>
+                <li><a href="https://twitter.com/agarw099/">Twitter</a></li>
+              </ol>
+
+          </div>
+        <!-- Default panel contents -->
+            <div class="flex-row row ">
+              <div class="col-xs-12 col-md-6">
+                  <a href="us_presidential_twitter.html" class="thumbnail same-row-1" >
+                      <div class="caption">
+                          <h5>Visualization of US Presidential Elections Tweets</h5>
+                      </div>
+                      <img src="us_pres-twitter-viz.png" alt="Visualization for US Presidential Elections Tweets" >
+
+                  </a>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <a href="grocery_forecasting.html" class="thumbnail">
+                  <div class="caption">
+                      <h5>Grocery Sales Forecasting - Kaggle Competition</h5>
+                  </div>
+                  <img src="grocery_sales.png" alt="grocery sales prediction">
+                </a>
+              </div>
+          </div>
+          <div class="flex-row row">
+              <div class="col-xs-12 col-md-6">
+                  <a href="bay_area_bike_share.html" class="thumbnail same-row-1" >
+                      <div class="caption">
+                          <h5>Recommendation System for SF Bay Area Bike Share Program</h5>
+                      </div>
+                      <img src="bay_area_bike_share.png" alt="SF Bay Bike Share" >
+                  </a>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <a href="canadian_bankruptcy_modeling.html" class="thumbnail">
+                    <div class="caption">
+                        <h5>Canadian Bankruptcy Rate Modeling</h5>
+                    </div>
+                    <img src="canadian_bankruptcy.png" alt="Canadian Bankruptcy Modeling">
+                </a>
+              </div>
+            </div>
+            <div class="flex-row row">
+              <div class="col-xs-8 col-md-4">
+                <a href="mckinsey_hackathon.html" class="thumbnail">
+                    <div class="caption">
+                        <h5>McKinsey Analytics Hackathon</h5>
+                    </div>
+                    <img src="mckinsey_hackathon.png" alt="McKinsey Hackathon">
+                </a>
+              </div>
+              <div class="col-xs-8 col-md-4">
+                <a href="officer_traffic_stops.html" class="thumbnail">
+                    <div class="caption">
+                        <h5>EDA of Officer Traffic Stops</h5>
+                    </div>
+                    <img src="officer_traffic_stops.png" alt="Officer Traffic Stops">
+                </a>
+              </div>
+              <div class="col-xs-8 col-md-4">
+                  <a href="porosity_waves.html" class="thumbnail">
+                      <div class="caption">
+                          <h5>Modeling of 3D Porosity Waves</h5>
+                      </div>
+                      <img src="porosity_waves.png" alt="Porosity Waves">
+                  </a>
+              </div>
+          </div>
+
+      </div>
+
+
+
+      <!-- jQuery Version 1.12.3 -->
+      <script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script>
+      </script>
+
+
+  </body>
+
+  </html>
